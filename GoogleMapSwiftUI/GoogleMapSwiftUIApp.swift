@@ -15,8 +15,8 @@ import GoogleMaps
 //  func application(_ application: UIApplication,
 //                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
 //      GMSServices.provideAPIKey("AIzaSyBbdF2eBNGlt6VL3IOQ0Z6Z9UeybTjJToE")
-//      
-//   
+//
+//
 //
 //    return true
 //  }
@@ -32,7 +32,7 @@ struct GoogleMapSwiftUIApp: App {
     
     
     init(){
-        GMSServices.provideAPIKey("AIzaSyBbdF2eBNGlt6VL3IOQ0Z6Z9UeybTjJToE")
+        GMSServices.provideAPIKey(Key.GMapKey)
         
     }
     

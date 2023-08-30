@@ -13,6 +13,7 @@
 		4E9C12BD2A9F27AB003CD05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9C12BC2A9F27AB003CD05C /* Assets.xcassets */; };
 		4E9C12C02A9F27AB003CD05C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9C12BF2A9F27AB003CD05C /* Preview Assets.xcassets */; };
 		4E9C12C82A9F3074003CD05C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C12C72A9F3074003CD05C /* MapViewController.swift */; };
+		4E9C12CA2A9F4358003CD05C /* key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C12C92A9F4358003CD05C /* key.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4E9C12BC2A9F27AB003CD05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E9C12BF2A9F27AB003CD05C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E9C12C72A9F3074003CD05C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4E9C12C92A9F4358003CD05C /* key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = key.swift; sourceTree = "<group>"; };
 		761B8544E8782AD1B5A496EC /* Pods-GoogleMapSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapSwiftUI/Pods-GoogleMapSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		BF0BFBDA91C75E2B580EF7CD /* libPods-GoogleMapSwiftUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMapSwiftUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8DF17DF058C6A0D7C9954D /* Pods-GoogleMapSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapSwiftUI/Pods-GoogleMapSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				4E9C12BC2A9F27AB003CD05C /* Assets.xcassets */,
 				4E9C12BE2A9F27AB003CD05C /* Preview Content */,
 				4E9C12C72A9F3074003CD05C /* MapViewController.swift */,
+				4E9C12C92A9F4358003CD05C /* key.swift */,
 			);
 			path = GoogleMapSwiftUI;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E9C12BB2A9F27A9003CD05C /* ContentView.swift in Sources */,
+				4E9C12CA2A9F4358003CD05C /* key.swift in Sources */,
 				4E9C12C82A9F3074003CD05C /* MapViewController.swift in Sources */,
 				4E9C12B92A9F27A9003CD05C /* GoogleMapSwiftUIApp.swift in Sources */,
 			);
