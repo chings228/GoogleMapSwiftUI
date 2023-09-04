@@ -30,6 +30,8 @@ struct GoogleMapSwiftUIApp: App {
     
     //@UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
+    @StateObject var vm = ViewModel()
+    
     
     init(){
         GMSServices.provideAPIKey(Key.GMapKey)
@@ -41,6 +43,7 @@ struct GoogleMapSwiftUIApp: App {
         
         WindowGroup {
             ContentView()
+                .environmentObject(vm)
         }
     }
 }
